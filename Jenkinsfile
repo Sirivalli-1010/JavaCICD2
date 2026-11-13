@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                bat 'checkout scm'
+                checkout scm
             }
         }
 
